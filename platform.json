@@ -27,7 +27,7 @@
     },
     "framework-arduino-samd-p1am": {
       "type": "framework",
-      "version": "https://github.com/leogaggl/P1AMCore/archive/1.6.21.tar.gz"
+      "version": "https://github.com/leogaggl/P1AMCore.git"
     },
     "tool-bossac": {
       "type": "uploader",
