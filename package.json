@@ -1,0 +1,22 @@
+{
+  "name": "P1AM",
+  "version": "1.6.21",
+  "description": "The P1AM-100 is an industrial-grade open-source controller that is compatible with the Arduino MKRZero.",
+  "keywords": [
+    "dev-platform",
+    "Arduino",
+    "Atmel",
+    "SAM",
+    "ARM",
+    "Cortex-M"
+  ],
+  "homepage": "https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/productivityopen_(arduino-compatible)/p1am-100",
+  "license": "LGPL-2.1-or-later",
+  "engines": {
+    "platformio": "^5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leogaggl/P1AMCore.git"
+  }
+}
