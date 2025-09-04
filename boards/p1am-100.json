@@ -1,0 +1,50 @@
+{
+  "build": {
+    "core": "arduino",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DUSE_ARDUINO_MKR_PIN_LAYOUT -D__SAMD21G18A__",
+    "f_cpu": "48000000L",
+    "hwids": [
+      [
+        "0x1354",
+        "0x4000"
+      ],
+      [
+        "0x1354",
+        "0x4001"
+      ]
+    ],
+    "ldscript": "flash_with_bootloader.ld",
+    "mcu": "samd21g18a",
+    "usb_product": "P1AM-100",
+    "variant": "P1AM-100"
+  },
+  "debug": {
+    "jlink_device": "ATSAMD21G18A",
+    "openocd_chipname": "at91samd21g18",
+    "openocd_script": "variant/P1AM-100/openocd_scripts/arduino_zero.cfg"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "P1AM-100",
+  "upload": {
+    "disable_flushing": true,
+    "maximum_ram_size": 32768,
+    "maximum_size": 262144,
+    "native_usb": true,
+    "offset": "0x2000",
+    "protocol": "sam-ba",
+    "protocols": [
+      "sam-ba",
+      "blackmagic",
+      "jlink",
+      "atmel-ice"
+    ],
+    "require_upload_port": true,
+    "use_1200bps_touch": true,
+    "wait_for_upload_port": true
+  },
+  "url": "https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/productivityopen_(arduino-compatible)/p1am-100",
+  "vendor": "Facts Engineering"
+}

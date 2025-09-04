@@ -10,12 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lgaggl/P1AMCore.git"
+    "url": "https://github.com/leogaggl/P1AMCore.git"
   },
   "version": "1.6.21",
   "frameworks": {
     "arduino": {
-      "package": "framework-arduino-samd-p1am",
       "script": "builder/frameworks/arduino.py"
     }
   },
