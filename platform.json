@@ -1,0 +1,38 @@
+{
+  "name": "P1AM",
+  "title": "P1AM Development Platform",
+  "description": "The P1AM-100 is an industrial-grade open-source controller that is compatible with the Arduino MKRZero.",
+  "url": "https://github.com/facts-engineering/P1AMCore",
+  "homepage": "https://www.automationdirect.com/adc/shopping/catalog/programmable_controllers/productivityopen_(arduino-compatible)/p1am-100",
+  "license": "LGPL-2.1-or-later",
+  "engines": {
+    "platformio": "^5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lgaggl/P1AMCore.git"
+  },
+  "version": "1.6.21",
+  "frameworks": {
+    "arduino": {
+      "package": "framework-arduino-samd-p1am",
+      "script": "builder/frameworks/arduino.py"
+    }
+  },
+  "packages": {
+    "toolchain-gccarmnoneeabi": {
+      "type": "toolchain",
+      "owner": "platformio",
+      "version": "~1.140201.0"
+    },
+    "framework-arduino-samd-p1am": {
+      "type": "framework",
+      "version": "https://github.com/leogaggl/P1AMCore/archive/1.6.21.tar.gz"
+    },
+    "tool-bossac": {
+      "type": "uploader",
+      "owner": "platformio",
+      "version": "~1.9.1"
+    }
+  }
+}
